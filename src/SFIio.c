@@ -79,17 +79,3 @@ int SFIwrite(const char *restrict filename, long int line, char *restrict conten
     fclose(ptr);
     return 0;
 }
-
-
-
-/* SFIremove: Removes data from a file in a specified line range (from starting line No. to ending line No.) */
-/**
- * SFIremove - Removes lines from a file within a specified range.
- * @filename: The name of the file to be modified.
- * @start_line: The starting line number (1-based index) of the range to be removed.
- * @end_line: The ending line number (1-based index) of the range to be removed.
- * 
- * Returns:
- *   0 on success, -1 on failure.
- */
-
