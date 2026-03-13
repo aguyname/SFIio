@@ -1,9 +1,8 @@
 # SFIio - Specfic file index io library
 ## Features
--is a fast C lightweight C libaray made for applications such as 'Self Modifing code', updating config files 
--It's memory safe and uses Arena allocator's for fast allocation and avoiding memory fragmentation (you can view valgrind report's and the screenshots
+is a fast C lightweight C libaray made for applications such as 'Self Modifing code', updating config files 
+It's memory safe and uses Arena allocator's for fast allocation and avoiding memory fragmentation (you can view valgrind report's and the screenshots
 provided in the (`repo`) folder)
--
 ## Use cases:
 1.'Self Modifing code'
 i.e program's that rewrite their own code
