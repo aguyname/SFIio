@@ -2,6 +2,5 @@
 #define SFI_H
 
 #include <stddef.h>
-typedef long ssize_t; 
-int SFIwrite(const char *__restrict filename, long int line, const char *__restrict content);
+int SFIwrite(const char *restrict filename, long int line, const char *restrict content);
 #endif //SFI_H
