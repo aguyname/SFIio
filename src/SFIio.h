@@ -3,6 +3,5 @@
 
 #include <stddef.h>
 typedef long ssize_t; 
-int SFIinserts(const char *__restrict filename, ssize_t *lineno, const char **data);
-int SFIremove(const char *__restrict filename, long int start_line, long int end_line);
+int SFIwrite(const char *__restrict filename, long int line, const char *__restrict content);
 #endif //SFI_H
