@@ -49,6 +49,7 @@ int main() {
 int main() { 
     //hello, world
     SFIwrite("main.c", 3, "//hello, world");
+}
 ```
 
 ## Installation
