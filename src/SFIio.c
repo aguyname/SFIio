@@ -7,7 +7,8 @@
 
 // File: SFI::io.c
 // This file contains Specific File Index (SFI) operators for manipulating file data
-// These operators include functions to inserr new data at a specific line (SFIinsert) and remove a range of lines (SFIremove).
+// These operators include functions to inserr new data at a specific line (SFIwrite) and remove a range of lines (SFIremove).
+// Note: SFIremove is still in work
 // Both functions utilize dynamic memory allocation to read and modify file contents.
 // Memory management and file handling practices are carefully implemented to ensure the proper handling of resources.
 // These functions invlove complex debugging please use them carefully
