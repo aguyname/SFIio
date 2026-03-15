@@ -40,7 +40,7 @@ int SFIwrite(const char *restrict filename, long int line, char *restrict conten
     long int filesize = FileSizeLarge(filename);
     filesize = filesize + (filesize/2);
     
-    String *a = (String *) malloc(sizeof(String) * filesno);
+    String *a = (String *) malloc(sizeof(String) * filesize);
     initCreateobj(&mem);
     CreateStringMspace(&mem, filesize);
     
